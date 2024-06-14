@@ -442,7 +442,10 @@ int main(){
         }
         goto clientScreenLabel;
     }
-    else if(menuCode==0) return 0;
+    else if(menuCode==0) {
+        cout<<"Thanks for using the system";
+        return 0;
+    }
     else goto menuLabel;
 }
 
